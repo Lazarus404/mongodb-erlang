@@ -1,4 +1,4 @@
-PROJECT = mongodb
+PROJECT = mongodb_client
 
 DIALYZER = dialyzer
 REBAR = $(shell which rebar || echo ./rebar)

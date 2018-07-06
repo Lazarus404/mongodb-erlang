@@ -23,7 +23,7 @@ all() ->
   ].
 
 init_per_suite(Config) ->
-  application:ensure_all_started(mongodb),
+  application:ensure_all_started(mongodb_client),
   [{database, <<"test">>} | Config].
 
 end_per_suite(_Config) ->
